@@ -1,0 +1,36 @@
+{
+  "name": "@nekohack/eslint-config-vue",
+  "version": "1.0.0",
+  "private": false,
+  "author": "yuukit <yuma.kitamura@ponos.co.jp>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiyuujin/lint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jiyuujin/lint-config/issues"
+  },
+  "keywords": [
+    "eslint",
+    "lerna",
+    "vue"
+  ],
+  "scripts": {
+    "lint": "eslint hoge-sample.vue -c ./index.js",
+    "lint:fix": "eslint hoge-sample.vue -c ./index.js --fix"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-vue": "8.3.0",
+    "eslint-plugin-vue-a11y": "0.0.31",
+    "prettier": "2.5.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint": "8.7.0"
+  }
+}

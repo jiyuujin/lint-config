@@ -1,0 +1,36 @@
+{
+  "name": "@nekohack/eslint-config-react",
+  "version": "0.5.0",
+  "private": false,
+  "author": "yuukit <yuma.kitamura@ponos.co.jp>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiyuujin/lint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jiyuujin/lint-config/issues"
+  },
+  "keywords": [
+    "eslint",
+    "lerna",
+    "react"
+  ],
+  "scripts": {
+    "lint": "eslint index.js hoge-class.jsx hoge-function.jsx -c ./index.js",
+    "lint:fix": "eslint index.js hoge-class.jsx hoge-function.jsx -c ./index.js --fix"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "prettier": "2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "8.7.0",
+    "react": "16.14.0"
+  }
+}

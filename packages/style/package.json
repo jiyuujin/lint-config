@@ -1,8 +1,12 @@
 {
-  "name": "lint-config",
-  "version": "0.1.0",
+  "name": "@nekohack/stylelint-config",
+  "version": "0.2.0",
   "private": false,
   "author": "yuukit <yuma.kitamura@ponos.co.jp>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jiyuujin/lint-config.git"
@@ -16,10 +20,12 @@
     "lerna"
   ],
   "scripts": {
-    "lint": "lerna run --scope @nekohack/* --parallel lint",
-    "lint:fix": "lerna run --scope @nekohack/* --parallel lint:fix"
+    "lint": "eslint index.js --ext js",
+    "lint:fix": "eslint index.js --ext js --fix"
   },
   "devDependencies": {
-    "lerna": "4.0.0"
+    "@nekohack/eslint-config": "0.3.0",
+    "eslint": "8.7.0",
+    "stylelint": "14.2.0"
   }
 }
