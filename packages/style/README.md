@@ -1,8 +1,6 @@
-# The nekohack ESLint plugins
+# @nekohack/stylelint
 
-The plugins are created, based on the [Lerna](https://github.com/lerna/lerna).
-
-## @nekohack/stylelint
+## Installation
 
 Install the StyleLint plugin for CSS.
 
