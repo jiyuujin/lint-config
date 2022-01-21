@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v1.1.0
+
+### [feat]
+- Use eslint-plugin-vuejs-accessibility instead
+   - Delete eslint-plugin-vue-a11y
+- Update changelog
+
 ## v1.0.0
 
 ### [feat]
@@ -11,15 +18,16 @@
 
 ### [feat]
 - Update eslint-plugin-vue to v7
+   - Depends on Vue v3
 
 ## v1.0.0-beta.0
 
 ### [feat]
-- Corresponding to Vue 3.0
+- Also corresponding to Vue v3
 
 ## v0.4.0
 
-### [chore]
+### [feat]
 - Corresponding to ESLint v7
 
 ## v0.3.1
@@ -29,7 +37,7 @@
 
 ## v0.3.0
 
-### [refactor]
+### [feat]
 - Update `prettier`
 - Improve local development
 
