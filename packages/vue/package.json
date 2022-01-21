@@ -1,6 +1,6 @@
 {
   "name": "@nekohack/eslint-config-vue",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": false,
   "author": "yuukit <yuma.kitamura@ponos.co.jp>",
   "main": "index.js",
