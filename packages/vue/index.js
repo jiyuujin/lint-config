@@ -2,9 +2,10 @@
 
 module.exports = {
   extends: [
-    'plugin:vue/vue3-recommended'
+    'plugin:vue/vue3-recommended',
+    'plugin:vuejs-accessibility/recommended'
   ],
-  plugins: ['vue', 'vue-a11y'],
+  plugins: ['vue', 'vuejs-accessibility'],
   parser: 'vue-eslint-parser',
   parserOptions: {
     sourceType: 'module',
