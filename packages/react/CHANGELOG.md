@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v0.8.0
+
+### [feat]
+- Add rules for Hook
+  - `react-hooks/exhaustive-deps` ... 副作用のルールをチェックする
+- Update changelog
+
 ## v0.7.0
 
 ### [feat]
@@ -10,6 +17,7 @@
 ## v0.6.0
 
 ### [feat]
+- Corresponding to ESLint v8
 - Delete eslint-plugin-prettier
 
 ## v0.5.0
