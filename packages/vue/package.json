@@ -20,8 +20,8 @@
     "vue"
   ],
   "scripts": {
-    "lint": "eslint hoge-sample.vue -c ./index.js",
-    "lint:fix": "eslint hoge-sample.vue -c ./index.js --fix"
+    "eslint": "eslint hoge-sample.vue -c ./index.js",
+    "eslint:fix": "eslint hoge-sample.vue -c ./index.js --fix"
   },
   "dependencies": {
     "eslint-config-prettier": "8.3.0",

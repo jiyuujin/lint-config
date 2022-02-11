@@ -19,8 +19,8 @@
     "lerna"
   ],
   "scripts": {
-    "lint": "eslint hoge.js -c ./index.js",
-    "lint:fix": "eslint hoge.js -c ./index.js --fix"
+    "eslint": "eslint hoge.js -c ./index.js",
+    "eslint:fix": "eslint hoge.js -c ./index.js --fix"
   },
   "dependencies": {
     "eslint": "8.8.0",

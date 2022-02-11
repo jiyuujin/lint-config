@@ -20,8 +20,8 @@
     "lerna"
   ],
   "scripts": {
-    "lint": "eslint index.js --ext js",
-    "lint:fix": "eslint index.js --ext js --fix"
+    "eslint": "eslint index.js --ext js",
+    "eslint:fix": "eslint index.js --ext js --fix"
   },
   "devDependencies": {
     "@nekohack/eslint-config": "0.3.0",

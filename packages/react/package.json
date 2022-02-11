@@ -20,8 +20,8 @@
     "react"
   ],
   "scripts": {
-    "lint": "eslint index.js hoge-class.jsx hoge-function.jsx -c ./index.js",
-    "lint:fix": "eslint index.js hoge-class.jsx hoge-function.jsx -c ./index.js --fix"
+    "eslint": "eslint index.js hoge-class.jsx hoge-function.jsx -c ./index.js",
+    "eslint:fix": "eslint index.js hoge-class.jsx hoge-function.jsx -c ./index.js --fix"
   },
   "dependencies": {
     "eslint-config-prettier": "8.3.0",
