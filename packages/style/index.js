@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-    'extends': 'stylelint-config-recommended',
+    'extends': 'stylelint-config-standard',
     'rules': {
         'block-no-empty': true,
         'color-no-invalid-hex': true,
