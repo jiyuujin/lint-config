@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.10.0
+
+### [feat]
+- Update react to v18
+
 ## v0.9.0
 
 ### [feat]
