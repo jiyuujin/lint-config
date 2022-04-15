@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.9.0
+
+### [feat]
+- Update react to v17
+
 ## v0.8.0
 
 ### [feat]
@@ -51,9 +56,9 @@
 ## v0.1.1
 
 ### [bugfix]
-Set prettier
+- Set prettier
 
 ## v0.1.0
 
 ### [feat]
-Init
+- Init
