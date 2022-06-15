@@ -20,6 +20,6 @@
     "eslint:fix": "lerna run --scope @nekohack/* --parallel lint:fix"
   },
   "devDependencies": {
-    "lerna": "4.0.0"
+    "lerna": "5.1.4"
   }
 }
